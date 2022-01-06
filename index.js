@@ -9,3 +9,15 @@ function calculateBMI() {
 
   // You are going to write the code here before the curly braces 👇🏻
 }
+
+let bmi = weight / (height^2);
+
+if (bmi < 18.5) { "Underweight";
+} else 
+if (bmi 18.5 - 24.9) {"healthy weight";
+else 
+if (bmi 25 - 29.9) { "Over weight";
+} else 
+if (bmi >= 30) { "obese";
+}
+}
